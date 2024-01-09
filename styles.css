@@ -1,0 +1,74 @@
+
+/* Reset page configuration */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styling the body */
+body {
+    margin: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+/* Styling the navbar */
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 4rem auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+
+/* Styling the header */
+h2 {
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 1.80rem 1.80rem 0 0;
+}
+
+
+/* Styling the list */
+ul {
+    list-style-type: none;
+}
+
+
+/* Styling the list items*/
+li {
+    border-top: 1px solid #333;
+}
+
+
+/* Styling links inside the list items*/
+li a, li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* Styling links hover effect and focus*/
+li a:hover,
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+/* Styling links to take all background space*/
+li a {
+    display: block;
+}
+
+
+/* Styling the last list item to border radius matches the menu border*/
+li:last-child a {
+    border-radius: 0 0 1.75rem 1.75rem;
+}
